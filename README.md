@@ -1,15 +1,43 @@
 # 所安裝的插件
-| 插件名稱          | 描述                                 |
-|-------------------|--------------------------------------|
-| indent-rainbow    | 提供縮排顏色以視覺化程式碼結構 |
-| Better Comments   | 改善註解的可讀性和視覺化 |
-| Todo Tree         | 在程式碼中顯示待辦事項清單 |
-| vscode-icons      | 提供額外的圖示和視覺效果以增強外觀 |
+## 1. **設定檔安裝的插件**
+| 插件名稱          | 描述 |
+|-|-|
+| indent-rainbow | 提供縮排顏色以視覺化程式碼結構 |
+| Better Comments | 改善註解的可讀性和視覺化 |
+| Todo Tree | 在程式碼中顯示待辦事項清單 |
+| vscode-icons | 提供額外的圖示和視覺效果以增強外觀 |
 | Comment Translate | 為多語言開發翻譯註解內容 |
-| Bookmarks         | 在程式碼中添加書籤以便於導航和搜索 |
+| Bookmarks | 在程式碼中添加書籤以便於導航和搜索 |
 | Markdown Preview Enhanced | 提供強大的 Markdown 預覽功能和增強特性 |
+## 2. **推薦安裝的插件**
+| 插件名稱 | 描述 |
+|-|-|
+| Chinese (Traditional) Language Pack for Visual Studio Code | VS Code 的中文 (繁體) 語言套件 |
+| Code Spell Checker | 檢查程式碼中的拼寫錯誤 |
+| CSS Peek | 在 CSS 文件中查看和導航到相關的樣式定義 |
+| Excel Viewer | 在 VS Code 中查看和編輯 Excel 文件 |
+| Git Graph | 以圖形方式顯示 Git 存儲庫的分支和提交記錄 |
+| Git History | 查看和比較 Git 存儲庫的提交歷史記錄 |
+| GitHub Actions | 在 VS Code 中管理和執行 GitHub Actions 工作流程 |
+| GitHub Pull Requests | 在 VS Code 中查看和管理 GitHub 上的 Pull 請求 |
+| GitLens — Git supercharged | 在編輯器中輕鬆查看 Git 存儲庫的文件和代碼歷史 |
+| Live Server | 在本地主機上實時預覽和調試網頁 |
+| Markdown All in One | 提供 Markdown 編輯的全面功能和快捷鍵 |
+| Path Intellisense | 自動完成文件路徑和模塊名稱 |
+| Remote - SSH | 通過 SSH 遠程連接到遠程主機進行開發 |
+| Remote - SSH: Editing Configuration Files | 在遠程主機上編輯配置文件 |
+| Remote - Tunnels | 在遠程主機上設置和管理 SSH 隧道 |
+| Remote Development | 通過容器、遠程主機或 WSL 進行開發 |
+| Remote Explorer | 瀏覽和管理遠程文件和資源 |
+| SonarLint | 在編輯器中檢查代碼質量和漏洞 |
+| Test Adapter Converter | 將不同測試框架的測試適配器轉換為 VS Code 測試適配器 |
+| Test Explorer UI | 在 VS Code 中運行和管理測試 |
+| Vscode Google Translate | 使用 Google 翻譯在編輯器中翻譯文本 |
+| vscode-icons | 提供額外的圖示和視覺效果以增強外觀 |
+| WSL | 在 Windows Subsystem for Linux 中進行開發 |
 # 步驟
 ## 1. **安裝所需插件**
+### 1. **設定檔安裝插件**
 開啟命令提示字元 (cmd) 並輸入以下命令以安裝所需插件：
 ```sh
 code --install-extension oderwat.indent-rainbow
@@ -18,6 +46,31 @@ code --install-extension gruntfuggly.todo-tree
 code --install-extension vscode-icons-team.vscode-icons
 code --install-extension hancel.comment-translate
 code --install-extension alefragnani.bookmarks
+```
+### 2. **推薦安裝的插件**
+```sh
+code --install-extension ms-ceintl.vscode-language-pack-zh-hant
+code --install-extension streetsidesoftware.code-spell-checker
+code --install-extension pranaygp.vscode-css-peek
+code --install-extension GrapeCity.gc-excelviewer
+code --install-extension mhutchie.git-graph
+code --install-extension donjayamanne.githistory
+code --install-extension github.vscode-pull-request-github
+code --install-extension eamodio.gitlens
+code --install-extension ritwickdey.liveserver
+code --install-extension yzhang.markdown-all-in-one
+code --install-extension christian-kohler.path-intellisense
+code --install-extension ms-vscode-remote.remote-ssh
+code --install-extension ms-vscode-remote.remote-ssh-edit
+code --install-extension ms-vscode-remote.remote-wsl
+code --install-extension ms-vscode-remote.vscode-remote-extensionpack
+code --install-extension ms-vscode-remote.vscode-remote-explorer
+code --install-extension SonarSource.sonarlint-vscode
+code --install-extension hbenl.vscode-test-adapter-converter
+code --install-extension hbenl.vscode-test-explorer
+code --install-extension felipecaputo.git-project-manager
+code --install-extension yuichinukiyama.vscode-google-translate
+code --install-extension ms-vscode-remote.remote-wsl
 ```
 ## 2. **開啟命令選單**
 按下鍵盤中的 `Ctrl + Shift + P`

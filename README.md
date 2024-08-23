@@ -86,10 +86,10 @@ code --install-extension ms-vscode-remote.remote-wsl
     // NOTE VSCode 擴充套件設定
     // > -----------------------------------------------------
 
-    // 編輯器字型設定
+    // > 編輯器字型設定
     "editor.fontFamily": "Source Code Pro, monospace",
 
-    // 縮排彩虹設定
+    // > indent-rainbow 設定
     "indentRainbow.colors": [
         "#1E90FF",  // 道奇藍
         "#32CD32",  // 萊姆綠
@@ -100,7 +100,7 @@ code --install-extension ms-vscode-remote.remote-wsl
     ],
     "indentRainbow.indicatorStyle": "light",
 
-    // Better Comments 設定
+    // > Better Comments 設定
     "better-comments.highlightPlainText": true,
     "better-comments.tags": [
         {
@@ -177,7 +177,7 @@ code --install-extension ms-vscode-remote.remote-wsl
         }
     ],
     
-    // Todo-Tree 設定
+    // > Todo Tree 設定
     "todo-tree.regex.regexCaseSensitive": false,
     "todo-tree.regex.regex": "(//|#|<!--|;|/\\*)\\s+($TAGS)\\s+",
     "todo-tree.general.tags": [
@@ -234,32 +234,31 @@ code --install-extension ms-vscode-remote.remote-wsl
         }
     },
 
-    // 工作區圖示主題設定
+    // > vscode-icons 主題設定
     "workbench.iconTheme": "vscode-icons",
 
-    // 翻譯設定
+    // > Comment Translate 設定
     "commentTranslate.targetLanguage": "zh-TW",
     
-    // Bookmarks 設定
+    // > Bookmarks 設定
     "bookmarks.navigateThroughAllFiles": false,
     "bookmarks.saveBookmarksInProject": true,
 
-    // Markdown 預覽增強設定
+    // > Markdown Preview Enhanced 預覽增強設定
     "markdown-preview-enhanced.previewTheme": "github-dark.css",
 
     // ...
 // }
 ```
-
 # 說明
 ## 1.標籤說明
-| 標籤   | 說明           | 顏色     |
-|--------|----------------|----------|
-| !      | 警告       | ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+)  |
-| ?      | 問題       | ![#3498DB](https://via.placeholder.com/15/3498DB/000000?text=+)  |
-| >      | 目錄索引   | ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+)  |
-| *      | 書籤       | ![#0090B0](https://via.placeholder.com/15/0090B0/000000?text=+)  |
-| --     | 刪除線     | ![#A9A9A9](https://via.placeholder.com/15/A9A9A9/000000?text=+)  |
-| BUG    | 修正錯誤   | ![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+)  |
-| NOTE   | 備註       | ![#8A2BE2](https://via.placeholder.com/15/8A2BE2/000000?text=+)  |
-| TODO   | 待辦事項   | ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+)  |
+| 標籤 | 說明 | 顏色 |
+|-|-|-|
+| ! | 警告 | ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+) |
+| ? | 問題 | ![#3498DB](https://via.placeholder.com/15/3498DB/000000?text=+) |
+| > | 目錄索引 | ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+) |
+| * | 書籤 | ![#0090B0](https://via.placeholder.com/15/0090B0/000000?text=+) |
+| -- | 刪除線 | ![#A9A9A9](https://via.placeholder.com/15/A9A9A9/000000?text=+) |
+| BUG | 修正錯誤 | ![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+) |
+| NOTE | 備註 | ![#8A2BE2](https://via.placeholder.com/15/8A2BE2/000000?text=+) |
+| TODO | 待辦事項 | ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+) |

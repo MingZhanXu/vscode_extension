@@ -1,4 +1,4 @@
-## 1.所安裝的插件
+# 所安裝的插件
 | 插件名稱          | 描述                                 |
 |-------------------|--------------------------------------|
 | indent-rainbow    | 提供縮排顏色以視覺化程式碼結構 |
@@ -8,8 +8,8 @@
 | Comment Translate | 為多語言開發翻譯註解內容 |
 | Bookmarks         | 在程式碼中添加書籤以便於導航和搜索 |
 | Markdown Preview Enhanced | 提供強大的 Markdown 預覽功能和增強特性 |
-## 2.步驟
-1. **安裝所需插件**
+# 步驟
+## 1. **安裝所需插件**
     開啟命令提示字元 (cmd) 並輸入以下命令以安裝所需插件：
 
     ```sh
@@ -20,17 +20,12 @@
     code --install-extension hancel.comment-translate
     code --install-extension alefragnani.bookmarks
     ```
-2. **開啟命令選單**
-    按下
-        `Ctrl + Shift + P`
-    3. **開啟全域設定檔**
-        輸入指令
-        `Preferences: Open Settings (JSON)`
-        並按下
-        `Enter`
-    4. **新增設定**
-        `settings.json` 中的 `{...}` 內容結尾處貼下以下內容
-        
+## 2. **開啟命令選單**
+按下鍵盤中的 `Ctrl + Shift + P`
+## 3. **開啟全域設定檔**
+輸入指令 `Preferences: Open Settings (JSON)` 並按下 `Enter`
+## 4. **新增設定**
+`settings.json` 中的 `{...}` 內容結尾處貼下以下內容後，按下鍵盤中的 `Ctrl + Enter`
 ```json
     // {
     // ...
@@ -202,7 +197,8 @@
     // }
 ```
 
-## 標籤內容
+# 說明
+## 1.標籤意思
 | 標籤   | 意思           | 顏色     |
 |--------|----------------|----------|
 | !      | 警告標籤       | ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+)  |

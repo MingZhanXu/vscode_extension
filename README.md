@@ -200,13 +200,13 @@ code --install-extension alefragnani.bookmarks
 
 # 說明
 ## 1.標籤說明
-| 標籤   | 說明           | 顏色                                                   |
-|--------|----------------|--------------------------------------------------------|
-| !      | 警告標籤       | <span style="color:#FFA500; font-size: 1.5em;">■</span> |
-| ?      | 問題標籤       | <span style="color:#3498DB; font-size: 1.5em;">■</span> |
-| >      | 目錄索引標籤   | <span style="color:#FFFFFF; font-size: 1.5em;">■</span> |
-| *      | 書籤標籤       | <span style="color:#0090B0; font-size: 1.5em;">■</span> |
-| --     | 刪除線標籤     | <span style="color:#A9A9A9; font-size: 1.5em;">■</span> |
-| BUG    | 修正錯誤標籤   | <span style="color:#FF0000; font-size: 1.5em;">■</span> |
-| NOTE   | 備註標籤       | <span style="color:#8A2BE2; font-size: 1.5em;">■</span> |
-| TODO   | 待辦事項標籤   | <span style="color:#FFD700; font-size: 1.5em;">■</span> |
+| 標籤   | 說明           | 顏色     |
+|--------|----------------|----------|
+| !      | 警告       | ![#FFA500](https://via.placeholder.com/15/FFA500/000000?text=+)  |
+| ?      | 問題       | ![#3498DB](https://via.placeholder.com/15/3498DB/000000?text=+)  |
+| >      | 目錄索引   | ![#FFFFFF](https://via.placeholder.com/15/FFFFFF/000000?text=+)  |
+| *      | 書籤       | ![#0090B0](https://via.placeholder.com/15/0090B0/000000?text=+)  |
+| --     | 刪除線     | ![#A9A9A9](https://via.placeholder.com/15/A9A9A9/000000?text=+)  |
+| BUG    | 修正錯誤   | ![#FF0000](https://via.placeholder.com/15/FF0000/000000?text=+)  |
+| NOTE   | 備註       | ![#8A2BE2](https://via.placeholder.com/15/8A2BE2/000000?text=+)  |
+| TODO   | 待辦事項   | ![#FFD700](https://via.placeholder.com/15/FFD700/000000?text=+)  |

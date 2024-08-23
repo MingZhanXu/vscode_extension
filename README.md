@@ -27,7 +27,7 @@
 ## 4. **新增設定**
 `settings.json` 中的 `{...}` 內容結尾處貼下以下內容後，按下鍵盤中的 `Ctrl + Enter`
 ```json
-    // {
+// {
     // ...
 
     // > -----------------------------------------------------
@@ -49,6 +49,7 @@
     "indentRainbow.indicatorStyle": "light",
 
     // Better Comments 設定
+    "better-comments.highlightPlainText": true,
     "better-comments.tags": [
         {
             "tag": " ! ",
@@ -123,18 +124,19 @@
             "italic": false
         }
     ],
-
+    
     // Todo-Tree 設定
+    "todo-tree.regex.regexCaseSensitive": false,
     "todo-tree.regex.regex": "(//|#|<!--|;|/\\*)\\s+($TAGS)\\s+",
     "todo-tree.general.tags": [
         "!",
         "?",
         ">",
+        "*",
         "--",
-        "bug",
-        "note",
-        "todo",
-        "*"
+        "BUG",
+        "NOTE",
+        "TODO"
     ],
     "todo-tree.highlights.customHighlight": {
         "!": {
@@ -152,31 +154,31 @@
             "foreground": "#FFFFFF",
             "iconColour": "#FFFFFF"
         },
+        "*": {
+            "icon": "bookmark",
+            "foreground": "#0090B0",
+            "iconColour": "#0090B0"
+        },
         "--": {
             "icon": "trash",
             "foreground": "#C9A9A9",
             "iconColour": "#A9A9A9",
             "strikethrough": true
         },
-        "bug": {
+        "BUG": {
             "icon": "bug",
             "foreground": "#FF0000",
             "iconColour": "#FF0000"
         },
-        "note": {
+        "NOTE": {
             "icon": "note",
             "foreground": "#8A2BE2",
             "iconColour": "#8A2BE2"
         },
-        "todo": {
+        "TODO": {
             "icon": "check",
             "foreground": "#FFD700",
             "iconColour": "#FFD700"
-        },
-        "*": {
-            "icon": "bookmark",
-            "foreground": "#0090B0",
-            "iconColour": "#0090B0"
         }
     },
 
@@ -185,16 +187,16 @@
 
     // 翻譯設定
     "commentTranslate.targetLanguage": "zh-TW",
-
+    
     // Bookmarks 設定
     "bookmarks.navigateThroughAllFiles": false,
-    "bookmarks.saveBookmarksInProject": true
+    "bookmarks.saveBookmarksInProject": true,
 
     // Markdown 預覽增強設定
     "markdown-preview-enhanced.previewTheme": "github-dark.css",
 
     // ...
-    // }
+// }
 ```
 
 # 說明

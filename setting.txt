@@ -1,0 +1,159 @@
+// > -----------------------------------------------------
+// NOTE VSCode 擴充套件設定
+// > -----------------------------------------------------
+
+// 編輯器字型設定
+"editor.fontFamily": "Source Code Pro, monospace",
+
+// 縮排彩虹設定
+"indentRainbow.colors": [
+    "#1E90FF",  // 道奇藍
+    "#32CD32",  // 萊姆綠
+    "#468254",  // 深綠色
+    "#3CB371",  // 中海綠
+    "#5F9EA0",  // 軍藍色
+    "#66CDAA"   // 中綠寶石
+],
+"indentRainbow.indicatorStyle": "light",
+
+// Better Comments 設定
+"better-comments.tags": [
+    {
+        "tag": " ! ",
+        "color": "#FFA500",  // 黃色，用於警告標籤
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    },
+    {
+        "tag": " ? ",
+        "color": "#3498DB",  // 藍色，用於問題標籤
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    },
+    {
+        "tag": " > ",
+        "color": "#FFFFFF",  // 白色，用於目錄索引標籤
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    },
+    {
+        "tag": " -- ",
+        "color": "#A9A9A9",  // 深灰色，用於刪除線標籤
+        "strikethrough": true,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    },
+    {
+        "tag": " bug ",
+        "color": "#FF0000",  // 純紅色，用於修正錯誤標籤
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    },
+    {
+        "tag": " note ",
+        "color": "#8A2BE2",  // 藍紫色，用於備註標籤
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    },
+    {
+        "tag": " todo ",
+        "color": "#FFD700",  // 金色，用於待辦事項標籤
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    },
+    {
+        "tag": " * ",
+        "color": "#0090B0",  // 亮藍色，用於書籤標籤
+        "strikethrough": false,
+        "underline": false,
+        "backgroundColor": "transparent",
+        "bold": false,
+        "italic": false
+    }
+],
+
+// Todo-Tree 設定
+"todo-tree.regex.regex": "(//|#|<!--|;|/\\*)\\s+($TAGS)\\s+",
+"todo-tree.general.tags": [
+    "!",
+    "?",
+    ">",
+    "--",
+    "bug",
+    "note",
+    "todo",
+    "*"
+],
+"todo-tree.highlights.customHighlight": {
+    "!": {
+        "icon": "alert",
+        "foreground": "#FFA500",
+        "iconColour": "#FFA500"
+    },
+    "?": {
+        "icon": "question",
+        "foreground": "#3498DB",
+        "iconColour": "#3498DB"
+    },
+    ">": {
+        "icon": "list-unordered",
+        "foreground": "#FFFFFF",
+        "iconColour": "#FFFFFF"
+    },
+    "--": {
+        "icon": "trash",
+        "foreground": "#C9A9A9",
+        "iconColour": "#A9A9A9",
+        "strikethrough": true
+    },
+    "bug": {
+        "icon": "bug",
+        "foreground": "#FF0000",
+        "iconColour": "#FF0000"
+    },
+    "note": {
+        "icon": "note",
+        "foreground": "#8A2BE2",
+        "iconColour": "#8A2BE2"
+    },
+    "todo": {
+        "icon": "check",
+        "foreground": "#FFD700",
+        "iconColour": "#FFD700"
+    },
+    "*": {
+        "icon": "bookmark",
+        "foreground": "#0090B0",
+        "iconColour": "#0090B0"
+    }
+},
+
+// 工作區圖示主題設定
+"workbench.iconTheme": "vscode-icons",
+
+// 翻譯設定
+"commentTranslate.targetLanguage": "zh-TW",
+
+// Bookmarks 設定
+"bookmarks.navigateThroughAllFiles": false,
+"bookmarks.saveBookmarksInProject": true

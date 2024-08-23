@@ -10,16 +10,15 @@
 | Markdown Preview Enhanced | 提供強大的 Markdown 預覽功能和增強特性 |
 # 步驟
 ## 1. **安裝所需插件**
-    開啟命令提示字元 (cmd) 並輸入以下命令以安裝所需插件：
-
-    ```sh
-    code --install-extension oderwat.indent-rainbow
-    code --install-extension aaron-bond.better-comments
-    code --install-extension gruntfuggly.todo-tree
-    code --install-extension vscode-icons-team.vscode-icons
-    code --install-extension hancel.comment-translate
-    code --install-extension alefragnani.bookmarks
-    ```
+開啟命令提示字元 (cmd) 並輸入以下命令以安裝所需插件：
+```sh
+code --install-extension oderwat.indent-rainbow
+code --install-extension aaron-bond.better-comments
+code --install-extension gruntfuggly.todo-tree
+code --install-extension vscode-icons-team.vscode-icons
+code --install-extension hancel.comment-translate
+code --install-extension alefragnani.bookmarks
+```
 ## 2. **開啟命令選單**
 按下鍵盤中的 `Ctrl + Shift + P`
 ## 3. **開啟全域設定檔**
